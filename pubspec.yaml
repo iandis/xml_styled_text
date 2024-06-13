@@ -1,0 +1,24 @@
+name: xml_styled_text
+description: Flutter text styling using XML tags.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.16.2'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dartxml:
+    git:
+      url: https://github.com/iandis/dart-xml
+      ref: xml-6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
