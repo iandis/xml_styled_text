@@ -9,11 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  dartxml:
-    git:
-      url: https://github.com/iandis/dart-xml
-      ref: xml-6.6.0
+  xml: ^6.6.0
 
 dev_dependencies:
   flutter_test:

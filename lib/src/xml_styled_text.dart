@@ -1,8 +1,8 @@
-import 'package:dartxml/xml_events.dart'
+import 'package:xml/xml_events.dart'
     show XmlEvent, XmlNodeDecoder, parseEvents;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:dartxml/xml.dart';
+import 'package:xml/xml.dart';
 
 import 'tags/xml_tag.dart';
 import 'default_xml_tags.dart';
